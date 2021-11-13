@@ -13,12 +13,13 @@ const html = `
 		}
 
 		a {
-			color: #172e50
+			color: #172e50;
 		}
 
 		* {
-			box-sizing: border-box
-			align: center
+			box-sizing: border-box;
+			align: center;
+			margin: 0 auto;
 		}
 
 		.brow-content {
@@ -47,7 +48,12 @@ const html = `
 <div class="bdivider">
 <div class="spacer" style="height:20px;"></div>
 </div>
-<div align="center">Made with ♡ by <a href="https://twitter.com/KafuuKion">@KafuuKion</a></div>
+<div align="center">
+<p>Made with ♡ by <a href="https://twitter.com/KafuuKion">@KafuuKion</a>
+</br>
+</br>
+<a href="https://github.com/KafuuKion/mahoro-page"><img style="margin: 0 auto" alt="GitHub" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width=64" height="64"></a>
+</p></div>
 </div>
 </body>
 </html>
